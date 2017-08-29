@@ -1,0 +1,45 @@
+.leaflet-control-layers {
+       background-color: #fff;
+       border: 1px solid #999;
+       border-color: rgba(0, 0, 0, .4);
+       border-radius: 3px;
+       box-shadow: none
+}
+
+.leaflet-control {
+       position: relative;
+       z-index: 7;
+       pointer-events: auto;
+       float: left;
+       clear: both
+}
+
+.leaflet-control-layers-toggle {
+        content: '';
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        vertical-align: middle;
+        background-position: 0 -104px;
+        opacity: .75;
+        background-image: url(images/icons-000000@2x.png);
+        background-repeat: no-repeat;
+        background-size: 26px 260px;
+}
+
+.leaflet-control-layers label{
+        color: rgba(0,0,0,.75);
+        font-weight: 400;
+}
+
+.frame-caption{
+        font-family: "Microsoft Yahei", "微软雅黑", "Pinghei";
+        font-weight: 900;
+        margin: 5px auto;
+        text-align: center;	
+        display: block;
+}
+
+.leaflet-control-layers-separator{
+    margin: 5px  1px;
+}
